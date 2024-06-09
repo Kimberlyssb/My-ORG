@@ -6,6 +6,7 @@ import Formulario from "./componentes/formulario/formulario";
 import MiOrg from "./componentes/miORG";
 import Equipo from "./componentes/equipo";
 import Footer from "./componentes/footer";
+import "./App.css"
 
 function App() {
   const [mostrarFormulario, setMostrar] = useState(false);
@@ -96,14 +97,12 @@ function App() {
 
   //Registrar colaborador
   const RegistrarColaborador = (colaborador) => {
-    console.log("nuevo colaborador", colaborador);
     //Spread operator
     setColaboradores([...colaboradores, { ...colaborador, id: uuid() }]);
   };
 
   //Eliminar colaborador
   const eliminarColaborador = (id) => {
-    console.log("Eliminar Colaborador", id);
     const nuevosColaboradores = colaboradores.filter(
       (colaborador) => colaborador.id !== id
     );
@@ -112,7 +111,6 @@ function App() {
 
   //set color de equipo
   const setColor = (color, id) => {
-    console.log("set: ", color, id);
     const equiposActualizados = equipos.map((equipo) => {
       if (equipo.id === id) {
         equipo.colorPrimario = color;
@@ -126,20 +124,17 @@ function App() {
 
   //Crear equipo
   const crearEquipo = (nuevoEquipo) => {
-    console.log(nuevoEquipo);
     setEquipos([...equipos, { ...nuevoEquipo, id: uuid() }]);
   };
 
   //Eliminar equipo
   const eliminarEquipo = (id) => {
-    console.log("Eliminar Colaborador", id);
     const nuevoEquipo = equipos.filter((equipos) => equipos.id !== id);
     setEquipos(nuevoEquipo);
   };
 
   //like
   const like = (id) => {
-    console.log("like", id);
     const colaboradoresActualizados = colaboradores.map((colaborador) => {
       if (colaborador.id === id) {
         colaborador.fav = !colaborador.fav;
@@ -151,7 +146,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="app">
       <Header />
       {/*mostrarFormulario === true ?  <Formulario /> : <></> */}
       {mostrarFormulario && (
