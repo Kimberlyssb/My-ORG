@@ -14,7 +14,7 @@ function App() {
     {
       id: uuid(),
       equipo: "IT",
-      foto: "https://media.licdn.com/dms/image/C4D03AQEzVq-D3hYj9g/profile-displayphoto-shrink_800_800/0/1658874663558?e=1723075200&v=beta&t=U_0-Z2TpDvXRljtD8Hy5dlmU9JM6kCUd-OT6knnrrhI",
+      foto: "https://opem.b-cdn.net/wp-content/uploads/2022/10/foto-curriculum.jpg",
       nombre: "Vicente Millan",
       puesto: "CTO",
       fav: true,
@@ -22,7 +22,7 @@ function App() {
     {
       id: uuid(),
       equipo: "Administración",
-      foto: "https://media.licdn.com/dms/image/D4E35AQH37RSvnOGQRw/profile-framedphoto-shrink_800_800/0/1716591186541?e=1718492400&v=beta&t=bb7IHUc_feppkqc0-IDt6mvxjdAwL7uWr8Ge3U_sY5A",
+      foto: "https://cdn-images.livecareer.es/pages/foto_cv_lc_es_4.jpg",
       nombre: "Matias Donantueno",
       puesto: "Gerente",
       fav: false,
@@ -30,7 +30,7 @@ function App() {
     {
       id: uuid(),
       equipo: "Marketing",
-      foto: "https://media.licdn.com/dms/image/D4D03AQFtZCh0gct0og/profile-displayphoto-shrink_800_800/0/1714415938299?e=1723075200&v=beta&t=giJb3r_EC8V3zqKnBshrznT6DSOzExFU8pCf-igiaKI",
+      foto: "https://cdn-images.livecareer.es/pages/foto_cv_lc_es_3.jpg",
       nombre: "Linda Gonzalez",
       puesto: "Analista",
       fav: false,
@@ -38,7 +38,7 @@ function App() {
     {
       id: uuid(),
       equipo: "E-commerce",
-      foto: "https://media.licdn.com/dms/image/D4D03AQGW5yPBa4K7mQ/profile-displayphoto-shrink_800_800/0/1711125149274?e=1723075200&v=beta&t=WHWuhh7fRDmZnFBHWrj4c-n8jVPaSih7XCwYRFDGDjU",
+      foto: "https://cdn-images.resumelab.com/pages/15_foto_rles.jpg",
       nombre: "Kimberly Soto",
       puesto: "Lider del sector",
       fav: true,
@@ -46,7 +46,7 @@ function App() {
     {
       id: uuid(),
       equipo: "Recursos Humanos",
-      foto: "https://media.licdn.com/dms/image/D4E03AQHfnPvtBGu9Xg/profile-displayphoto-shrink_800_800/0/1703610686164?e=1723075200&v=beta&t=jJKuttASKa0FHy0APPdNZS3d-Py58KPXjy7D9fTHiHM",
+      foto: "https://www.molinarifoto.com.ar/wp-content/uploads/2019/09/Foto-CV-Hombre.jpg",
       nombre: "Jaiberd Rengel",
       puesto: "Director",
       fav: false,
